@@ -105,6 +105,9 @@ a:hover {
   grid-template-columns: 50% 50%;
   padding-top: 3rem;
 }
+.dashboard-content__video{
+  position: relative;
+}
 .dashboard-content__video--video{
   height: 100%;
 }
@@ -131,7 +134,7 @@ a:hover {
   color: #000000;
 }
 .dashboard-progra__tabs{
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 .dashboard-progra__tabs .nav-tabs{
   border: none;
@@ -320,6 +323,107 @@ a:hover {
   text-align: right;
   color: #000000;
 }
+.etiqueta-workputs{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #f3bb25;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12.8px;
+  color: #000
+}
+
+/*-- Dashboard Alerta --*/
+
+.dashboard-content__alert{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 4px;
+  background: #f3bb25;
+  padding: 15px 25px;
+  align-items: center;
+  margin: 3rem 0 1rem;
+  transition: .3s;
+}
+.dashboard-content__alert::before{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 5px;
+  background: #000;
+  left: 0;
+  top: 0;
+  border-radius: 4px 0 0 4px;
+}
+.dashboard-content__alert--text{
+  display: flex;
+  font-weight: 900;
+  color: #000;
+}
+.dashboard-content__alert--text img{
+  width: 24px;
+  height: 24px;
+  margin-right: .5rem;
+}
+.dashboard-content__alert--btn button{
+  border: 1px solid #000;
+  font-weight: 900;
+  color: #000;
+  padding: 8px 26px;
+  border-radius: 10px;
+}
+.dashboard-alert__content--video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.dashboard-alert__content--video p{
+  color: #949494;
+  font-weight: 900;
+}
+.dashboard-alert__content--video span{
+  color: #949494;
+}
+.dashboard-alert__content--video img{
+  width: 24px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 0;
+  margin: 1rem 0;
+}
+.dashboard-alert__content--video img:last-child{
+  width: 12px;
+  height: 12px;
+}
+.dashboard-content__alert--btn{
+  display: flex;
+  align-items: center;
+}
+.dashboard-content__alert--btn a{
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000 !important;
+}
+
+
+/*-- Workout --*/
+
+
+ .workout-video__slider .slick-list.draggable{
+  padding: 0 100px 0 3rem !important;
+ }
+
+
+
+
+
 
 
 /*-- Sidebar --*/
@@ -494,4 +598,133 @@ a:hover {
 
 .brand__sidebar {
   color: white;
+}
+
+
+/*-- Modal Quetions --*/
+
+
+.modal-question .modal-header{
+  justify-content: center;
+  position: relative;
+}
+.modal-question .modal-footer{
+  justify-content: center;
+  border-top: none;
+  padding: 30px;
+}
+.modal-question .modal-body{
+  padding: 1rem 30px;
+}
+.modal-question .modal-footer button{
+  width: 100%;
+  border-radius: 10px;
+  background-color: #104d9c;
+  font-weight: 900;
+  color: #fff;
+  padding: 10px 0;
+}
+.close-modal{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.modal-header .close-modal .close{
+  opacity: 1;
+}
+.form-question__item{
+  padding: .5rem 0;
+}
+.form-question__item p{
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: .6rem;
+}
+.form-question__item input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
+  outline: none;
+}
+.form-question__item input::placeholder{
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
+}
+.modal-question .modal-content{
+  border-radius: 10px;
+}
+.modal-question .modal-title{
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding: 30px 0;
+}
+.modal-question .modal-header{
+  border-bottom: none;
+  padding: 0;
+}
+.button-group-pills .btn {
+  border-radius: 10px;
+  line-height: 1.2;
+  margin:1rem 0;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 12.8px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  padding: 12px 25px;
+  font-weight: 900;
+}
+.button-group-pills .btn.active {
+  border-color: #234d9c;
+  background-color: #234d9c;
+  color: #fff;
+  box-shadow: none;
+}
+.button-group-pills .btn:hover {
+  border-color: #234d9c;
+  background-color: #234d9c;
+  color: #fff;
+  transition: .2s ease-in-out;
+}
+.btn-check-afiliar input[type="checkbox"]{
+  display: none;
+}
+
+.content-form-step2 input{
+  background: transparent !important;
+    border: 2px solid #cb6120 !important;
+    border-radius: 20px !important;
+    padding: .3rem .8rem !important;
+    margin: .5rem 0 !important;
+    transition: .3s ease-in-out !important;
+    resize: none !important;
+    overflow: hidden;
+    width: 100%;
+    outline: none;
+}
+.content-form-step2{
+  padding-top: 1rem;
+}
+.content-form-step2__title{
+  color: #004857;
+  font-weight: 700;
 }

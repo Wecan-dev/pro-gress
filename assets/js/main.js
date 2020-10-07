@@ -24,3 +24,6 @@
     $(".navbar-toggler").on("click", function () {
      $('.navbar').toggleClass('expan');
     });
+    $(".close-alert").on("click", function () {
+     $('.dashboard-content__alert').addClass('d-none');
+    });
