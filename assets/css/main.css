@@ -45,6 +45,9 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 1rem 3rem 3rem;
+  box-shadow: 7px 0 7px 3px #f1f1f1;
+  position: relative;
+  height: 125px;
 }
 .sidebar-top__content{
   display: flex;
@@ -415,9 +418,97 @@ a:hover {
 
 /*-- Workout --*/
 
-
+  
+  .workout-content{
+    padding: 60px 0;
+  }
  .workout-video__slider .slick-list.draggable{
-  padding: 0 100px 0 3rem !important;
+  padding: 0.5rem 100px 0.5rem 0rem !important;
+  margin-left: 3rem;
+ }
+ .slider-workout__content .slider-dashboard__img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+ }
+ .slider-workout__content .slider-dashboard__img img{
+  border-radius: 10px;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.16);
+ }
+ .slider-workout__content .slider-dashboard__text{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-direction: column;
+ }
+ .slider-workout__content--item{
+  width: 260px;
+  height: 150px;
+ }
+ .slider-workout__content--item .slider-dashboard__cat{
+  width: max-content;
+  padding: .2rem .5rem;
+ }
+ .slider-workout__content--item .slider-dashboard__title{
+  color: #fff;
+ }
+ .slider-workout__content--item .slider-dashboard__title span{
+  font-size: 12.8px;
+ }
+ .subtitle-side__top{
+  position: absolute;
+  bottom: 0;
+ }
+ .subtitle-side__top p{
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  position: relative;
+  padding: .5rem;
+  text-align: center;
+ }
+ .subtitle-side__top p::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+ }
+ .workout-table__search {
+  padding: 2rem 3rem;
+ }
+ .workout-table__search .form-inline button{
+  background: transparent;
+  border: none;
+ }
+ .workout-table__search .form-inline button i{
+  color: #000;
+  font-size: 1.5rem;
+ }
+ .workout-table__search .form-inline input{
+  border: none;
+  border-bottom: solid .5px #949494;
+  width: 350px;
+ }
+ .workout-table__search .form-inline input::placeholder{
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
  }
 
 
@@ -727,4 +818,85 @@ a:hover {
 .content-form-step2__title{
   color: #004857;
   font-weight: 700;
+}
+
+
+
+/*-- Tables Workout --*/
+
+table.tableWorkout {
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 3rem;
+}
+table.tableWorkout td, table.tableWorkout th {
+  border: 0;
+}
+table.tableWorkout tbody td {
+
+}
+table.tableWorkout thead {
+  background: transparent;
+}
+table.tableWorkout thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #949494;
+  text-align: center;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
+  padding: 1rem 0;
+}
+table.tableWorkout thead th:first-child{
+  text-align: start;
+  color: #000;
+  font-weight: 900;
+}
+table.tableWorkout tbody td div{
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  height: 85px;
+  margin: 10px -2px 0;
+  padding: 0 10px;
+  justify-content: center;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
+  
+}
+table.tableWorkout tbody td:first-child div{
+  border-radius: 10px 0 0 10px;
+  justify-content: start;
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+}
+table.tableWorkout tbody td:last-child div{
+  border-radius: 0 10px 10px 0;
+}
+table.tableWorkout tbody td:nth-child(2) div p{
+  background: #ddd;
+  border-radius: 12.5px;
+  color: #000;
+  font-weight: 900;
+  padding: 4px 18px;
+}
+table.tableWorkout tbody td div img{
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 1rem;
 }

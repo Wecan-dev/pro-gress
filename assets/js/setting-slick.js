@@ -82,7 +82,7 @@ $('.video-dashboard__slider').slick({
 $('.workout-video__slider').slick({
   infinite: true,
   autoplay: false,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   dots: false,
   arrows: false,
