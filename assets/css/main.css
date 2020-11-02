@@ -510,6 +510,183 @@ a:hover {
   letter-spacing: normal;
   color: #949494;
  }
+ .sidebar__routine{
+  background: #000;
+  height: 135px;
+ }
+ .sidebar__routine .title-sidebar__top{
+  display: flex;
+  align-items: center;
+ }
+ .sidebar__routine .title-sidebar__top img{
+  height: 60px;
+  width: 60px;
+  margin-right: 2rem;
+ }
+ .sidebar__routine .user-sidebar__top--text .dropdown button{
+  color: #fff;
+ }
+ .sidebar__routine .notifi-sidebar__top a i{
+  color: #fff;
+ }
+ .sidebar__routine .title-sidebar__top{
+  color: #fff;
+ }
+ .workout-routine{
+  background: #161718;
+  position: relative;
+  margin-top: -30px;
+  border-radius: 30px 30px 0 0;
+ }
+ .workout-routine::before{
+  position: absolute;
+  content: '';
+  width: 77px;
+  height: 7px;
+  border-radius: 8px;
+  background: #696a6b;
+  top: 26px;
+  left: 48%;
+ }
+ .subtitle-routine{
+  padding: 60px 3rem;
+ }
+ .routine-content{
+  display: flex;
+ }
+ .routine-content__video{
+  width: 308px;
+ }
+ .routine-content__video--video{
+  margin-bottom: 1rem;
+ }
+ .routine-content__video--video img{
+  width: 100%;
+  border-radius: 10px;
+  height: 240px;
+  object-fit: cover;
+ }
+ .subtitle-routine a{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+ }
+ .subtitle-routine a i{
+  font-size: 25px;
+  margin-right: 10px;
+ }
+ .routine-content__video--btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ .btn-completedo, .btn-descartar{
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-bottom: 15px;
+ }
+ .btn-completedo{
+  background: #104d9c;
+  color: #fff;
+ }
+ .btn-completedo:hover{
+  color: #fff;
+ }
+ .btn-descartar{
+  background: #642329;
+  color: #d62220;
+ }
+ .btn-descartar:hover{
+  color: #d62220;
+ }
+ .routine-content__content{
+  padding-left: 30px;
+  width: 80%;
+  padding-bottom: 3rem ;
+ }
+ .title-routine__programa{
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+ }
+ .routine-content__content .slider-dashboard__cat, .navbar-routine .slider-dashboard__cat{
+  display: flex;
+  background: transparent;
+ }
+ .routine-content__content .slider-dashboard__cat p, .navbar-routine .slider-dashboard__cat p{
+  margin-right: .5rem;
+  font-size: 12.8px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  background: #000;
+  padding: .1rem .4rem;
+  border-radius: 4px;
+  border: solid 0.5px #949494;
+ }
+ #respuesta-ej2{
+  width: 80%;
+ }
+ .collapse-routine__text .card{
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 0;
+ }
+ .collapse-routine__text p, .collapse-routine__text a{
+  color: #fff;
+ }
+ .collapse-routine__text a{
+  font-weight: 900;
+ }
+ .play-video__routine{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .play-video__routine i{
+  color: #fff;
+  font-size: 25px;
+ }
+ .modal-routine .modal-body{
+  padding: 0;
+ }
+ .modal-routine .modal-title{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+ }
+ .modal-routine .modal-body img{
+  width: 100%;
+ }
 
 
 
@@ -900,3 +1077,96 @@ table.tableWorkout tbody td div img{
   object-fit: cover;
   margin-right: 1rem;
 }
+
+/*-- Table workout routine --*/
+
+.table-routine__content{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.table-routine__video--video{
+  position: relative;
+}
+.table-routine__video--video img{
+  width: 90px;
+  height: 55px;
+  border-radius: 10px;
+  border: solid 0.5px #ffffff;
+}
+.table-routine__video{
+  display: flex;
+  align-items: center;
+  width: 68%;
+}
+.table-routine__video--text h4{
+  font-weight: bold;
+  color: #fff
+}
+.table-routine__video--text p{
+  font-size: 12.8px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
+}
+.table-routine__number{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 2%;
+}
+.table-routine__reps, .table-routine__sets, .table-routine__rest{
+  width: 10%;
+  text-align: center;
+}
+.table-routine__video--text{
+  margin-left: 15px;
+}
+.table-routine__reps p, .table-routine__sets p, .table-routine__rest p{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.table-routine__reps span, .table-routine__sets span, .table-routine__rest span{
+  font-size: 12.8px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #949494;
+}
+.tableWorkout-routine{
+  margin: .5rem 0 ;
+  border-radius: 10px;
+  background-color: #1b1c1d;
+  padding: 20px 15px 5px;
+}
+.title-table__routine{
+  font-size: 12.8px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  margin-bottom: 15px;
+}
+.table-routine{
+  margin-top: 40px;
+}
+

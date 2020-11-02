@@ -27,3 +27,5 @@
     $(".close-alert").on("click", function () {
      $('.dashboard-content__alert').addClass('d-none');
     });
+
+
