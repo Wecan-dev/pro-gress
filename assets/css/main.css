@@ -1127,7 +1127,7 @@ table.tableWorkout thead th:first-child{
   color: #000;
   font-weight: 900;
 }
-table.tableWorkout tbody td div{
+table.tableWorkout tbody td div, table.tableWorkout tbody td a {
   display: flex;
   align-items: center;
   background: #f1f1f1;
@@ -1144,24 +1144,24 @@ table.tableWorkout tbody td div{
   color: #949494;
   
 }
-table.tableWorkout tbody td:first-child div{
+table.tableWorkout tbody td:first-child div, table.tableWorkout tbody td:first-child a{
   border-radius: 10px 0 0 10px;
   justify-content: start;
   font-size: 16px;
   color: #000;
   font-weight: 900;
 }
-table.tableWorkout tbody td:last-child div{
+table.tableWorkout tbody td:last-child div, table.tableWorkout tbody td:last-child a{
   border-radius: 0 10px 10px 0;
 }
-table.tableWorkout tbody td:nth-child(2) div p{
+table.tableWorkout tbody td:nth-child(2) div p, table.tableWorkout tbody td:nth-child(2) a p{
   background: #ddd;
   border-radius: 12.5px;
   color: #000;
   font-weight: 900;
   padding: 4px 18px;
 }
-table.tableWorkout tbody td div img{
+table.tableWorkout tbody td div img, table.tableWorkout tbody td a img{
   width: 65px;
   height: 65px;
   border-radius: 10px;

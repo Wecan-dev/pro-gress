@@ -89,10 +89,10 @@ $('.workout-video__slider').slick({
   centerMode:true,
   centerPadding:'100px',
   responsive: [{
-    breakpoint: 1200,
+    breakpoint: 1380,
     settings: {
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       infinite: true,
       dots: false
     }
