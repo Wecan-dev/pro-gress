@@ -375,6 +375,14 @@
  	.content-desplegar .slider-dashboard__img{
  		width: 100%;
  	}
+ 	.form-step2-afiliar__content--items{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 		justify-content: space-between;
+ 	}
+ 	.modal-question{
+ 		padding-right: 0 !important;
+ 	}
 }
 @media (min-width: 420px) and (max-width: 767px){
 	.navbar.expan::after{
