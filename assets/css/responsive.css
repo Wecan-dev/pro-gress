@@ -220,6 +220,9 @@
 		padding: 1rem 0 2rem;
 		justify-content: center;
 	}
+	.video-dashboard__title{
+		padding: 1rem 1rem 1.5rem;
+	}
 
 
 	/*-- Dashboard Alerta --*/
@@ -298,10 +301,10 @@
 		flex-direction: column;
 		overflow-x: scroll;
  	}
- 	table.tableWorkout tbody td div{
+ 	table.tableWorkout tbody td div, table.tableWorkout tbody td a{
  		width: 100px;
  	}
- 	table.tableWorkout tbody td:first-child div{
+ 	table.tableWorkout tbody td:first-child div, table.tableWorkout tbody td:first-child a{
  		width: 240px;
  	}
  	.routine-content__video{

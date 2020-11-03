@@ -110,6 +110,8 @@ a:hover {
 }
 .dashboard-content__video{
   position: relative;
+  border: solid 1px #f1f1f1;
+  border-radius: 8px;
 }
 .dashboard-content__video--video{
   height: 100%;
@@ -306,6 +308,7 @@ a:hover {
   padding: 2rem 3rem 1.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .video-dashboard__title--text{
   font-size: 20px;
@@ -337,6 +340,33 @@ a:hover {
   font-weight: 900;
   font-size: 12.8px;
   color: #000
+}
+.dashboard-content__video .pro-videos__description{
+  left: 30px;
+  bottom: 30px;
+}
+.dashboard-videos__btn{
+  right: 30px;
+  bottom: 30px;
+  position: absolute;
+}
+.dashboard-videos__btn a{
+  padding: .5rem;
+}
+.dashboard-videos__btn a i{
+  color: #fff;
+  font-size: 25px;
+}
+.dashboard-content__video::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 2%, rgba(0,0,0,0.1) 22%, rgba(0,212,255,0) 100%);
+}
+.alert-dashboard.dashboard-content__video::before{
+  display: none;
 }
 
 /*-- Dashboard Alerta --*/
@@ -628,6 +658,7 @@ a:hover {
  .routine-content__content .slider-dashboard__cat, .navbar-routine .slider-dashboard__cat{
   display: flex;
   background: transparent;
+  padding: .1rem 0;
  }
  .routine-content__content .slider-dashboard__cat p, .navbar-routine .slider-dashboard__cat p{
   margin-right: .5rem;
@@ -1051,6 +1082,7 @@ a:hover {
   cursor: pointer;
   padding: 12px 25px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 .button-group-pills .btn.active {
   border-color: #234d9c;
