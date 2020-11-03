@@ -49,8 +49,8 @@ $('.video-dashboard__slider').slick({
   responsive: [{
     breakpoint: 1200,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 2,
+      slidesToScroll: 1,
       infinite: true,
       dots: false
     }

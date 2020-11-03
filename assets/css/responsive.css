@@ -345,6 +345,33 @@
  	.routine-content__video--btn{
  		padding-bottom: 2rem;
  	}
+
+
+
+ 	/*-- Pro-videos --*/
+
+
+ 	.pro-videos__content{
+ 		height: 540px;
+ 		padding: 0 1rem;
+ 	}
+ 	.pro-videos__video{
+ 		height: 350px;
+ 		width: 100%;
+ 	}
+ 	.pro-videos__description{
+ 		left: 1rem;
+ 	}
+ 	.video-pro__content .video-dashboard__title{
+ 		padding: 1rem;
+ 		justify-content: space-between;
+ 	}
+ 	.content-desplegar{
+ 		padding-right: 1rem;
+ 	}
+ 	.content-desplegar .slider-dashboard__img{
+ 		width: 100%;
+ 	}
 }
 @media (min-width: 420px) and (max-width: 767px){
 	.navbar.expan::after{
@@ -667,6 +694,18 @@
  	}
  	.table-routine__number{
  		width: 4%;
+ 	}
+
+
+ 	/*-- Pro-videos --*/
+
+
+ 	.video-pro__content .video-dashboard__title{
+ 		justify-content: space-between;
+ 	}
+ 	.content-desplegar{
+ 		padding-right: 1rem;
+ 		justify-content: space-around;
  	}
 }
 
