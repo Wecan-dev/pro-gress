@@ -23,11 +23,12 @@
 define( 'DB_NAME', 'db_pro-gress' );
 
 /** MySQL database username */
-define( 'DB_USER', 'admin' );
+//define( 'DB_USER', 'admin' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '123456' );
-
+//define( 'DB_PASSWORD', '123456' );
+define( 'DB_PASSWORD', '' );
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
