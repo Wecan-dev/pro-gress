@@ -383,6 +383,30 @@
  	.modal-question{
  		padding-right: 0 !important;
  	}
+
+
+ 	/*-- Login --*/
+
+
+ 	.main-login{
+ 		display: flex;
+ 	}
+ 	.content-login__img{
+ 		display: none;
+ 	}
+ 	.main-login__content:last-child{
+ 		width: 100%;
+ 	}
+ 	.form-login__form{
+ 		padding: 0 30px;
+ 	}
+ 	.content-login__form{
+ 		padding: 50px 0;
+ 	}
+ 	.form-login__btn a{
+ 		margin: 0 10px;
+ 	}
+
 }
 @media (min-width: 420px) and (max-width: 767px){
 	.navbar.expan::after{
@@ -717,6 +741,17 @@
  	.content-desplegar{
  		padding-right: 1rem;
  		justify-content: space-around;
+ 	}
+
+
+ 	/*-- Login --*/
+
+
+	.form-login__form{
+ 		padding: 0 30px;
+ 	}
+ 	.form-login__btn a{
+ 		margin: 0 10px;
  	}
 }
 
