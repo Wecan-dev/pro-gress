@@ -1,7 +1,10 @@
 <?php login(''); get_header(); ?>
 <section>
   <div class="navabar__grub">
+
     <?php get_template_part('partials/menu/sidebar__navbar'); ?>
+
+    
     <div class="sidebar__content">
       <?php get_template_part('partials/menu/sidebar__content_top'); ?>
       <div class="sidebar__content--content ">

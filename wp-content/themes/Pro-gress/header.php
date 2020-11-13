@@ -50,7 +50,7 @@
 </head>
 <body>
 
-<header class="d-flex d-lg-none">
+<header class="d-flex d-lg-none <?php if(is_page(14)){echo 'header-login';} ?>">
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
     <div class="title-responsive">
@@ -66,24 +66,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" ><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-dumbell.png" alt="">Workouts</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/workout" ><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-dumbell.png" alt="">Workouts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/pro-videos"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a>
         </li>
       </ul>
       <div class="options-navbar">
