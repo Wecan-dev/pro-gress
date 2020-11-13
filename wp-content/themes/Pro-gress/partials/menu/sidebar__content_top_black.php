@@ -25,7 +25,7 @@
 
                               
                 <?php }else{ ?>
-                  <a href="<?php echo get_home_url() ?>/iniciar-sesion"><button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a href="<?php echo get_home_url() ?>/login"><button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Entrar </button></a>
                 <?php } ?>
  
