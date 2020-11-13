@@ -1,4 +1,4 @@
-<div class="copy d-flex d-lg-none">
+<div class="copy d-flex d-lg-none <?php if(is_page(14)){echo 'header-login';} ?>">
   <p>Copyright © 2020</p>
 </div>
 
