@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php login(''); get_header(); ?>
 <section>
   <div class="navabar__grub">
     <?php get_template_part('partials/menu/sidebar__navbar'); ?>
@@ -12,7 +12,7 @@
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
               </a>
               <div class="etiqueta-workputs">
-                <p>Workouts de hoy</p>
+                <p>Workouts de hoy <?php echo wp_get_current_user()->ID; ?></p>
               </div>
               <div class="pro-videos__description">
                 <div class="slider-dashboard__text">

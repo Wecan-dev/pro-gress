@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php login(''); get_header(); ?>
 <section>
   <div class="navabar__grub">
     <div class="sidebar__navbar my-sidebar active d-none d-lg-block">

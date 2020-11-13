@@ -10,11 +10,11 @@
             <div class="user-sidebar__top--text">
               <div class="dropdown">
                 <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Samuel95 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  <?php echo wp_get_current_user()->user_login;?> <i class="fa fa-angle-down" aria-hidden="true"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="#">Mi cuenta</a>
-                  <a class="dropdown-item" href="#">Cerrar sesión</a>
+                  <a class="dropdown-item" href="<?php echo wp_logout_url( home_url()); ?>">Cerrar sesión</a>
                 </div>
               </div>
             </div>  

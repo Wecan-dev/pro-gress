@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php login(''); get_header(); ?>
 <section>
   <div class="navabar__grub">
     <?php get_template_part('partials/menu/sidebar__navbar'); ?>
