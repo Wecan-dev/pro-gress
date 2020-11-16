@@ -9,11 +9,11 @@
         <ul class="sidebar__list--menu pb-4 mt-5">
           <li><a href="#!" class="active"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a></li>
           <li><a href="#!"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a></li>
-          <li><a href="#!"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-dumbell.png" alt="">Workouts</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/workout"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-dumbell.png" alt="">Workouts</a></li>
           <li><a href="#!"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a></li>
         </ul>
         <ul class="sidebar__list--menu py-4">
-          <li><a href="#!"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/pro-videos"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a></li>
           <li><a href="#!"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a></li>
         </ul>
       </div>
@@ -98,7 +98,7 @@
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -106,7 +106,37 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
+                      </a>
+                    </div>
+                    <div class="progra-content__item">
+                      <div class="progra-item__number">
+                        <p>15</p>
+                        <span>sep</span>
                       </div>
+                      <a href="#" class="progra-item__content">
+                        <div class="progra-item__content--img">
+                          <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
+                        </div>
+                        <div class="progra-item__content--text">
+                          <p>Planche</p>
+                          <span>Principiantes - M1</span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="progra-content__item">
+                      <div class="progra-item__number">
+                        <p>15</p>
+                        <span>sep</span>
+                      </div>
+                      <a href="#" class="progra-item__content">
+                        <div class="progra-item__content--img">
+                          <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
+                        </div>
+                        <div class="progra-item__content--text">
+                          <p>Planche</p>
+                          <span>Principiantes - M1</span>
+                        </div>
+                      </a>
                     </div>
                     <div class="progra-content__item">
                       <div class="progra-item__number">
@@ -128,7 +158,7 @@
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -136,37 +166,7 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
-                      </div>
-                    </div>
-                    <div class="progra-content__item">
-                      <div class="progra-item__number">
-                        <p>15</p>
-                        <span>sep</span>
-                      </div>
-                      <div class="progra-item__content">
-                        <div class="progra-item__content--img">
-                          <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
-                        </div>
-                        <div class="progra-item__content--text">
-                          <p>Planche</p>
-                          <span>Principiantes - M1</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="progra-content__item">
-                      <div class="progra-item__number">
-                        <p>15</p>
-                        <span>sep</span>
-                      </div>
-                      <div class="progra-item__content">
-                        <div class="progra-item__content--img">
-                          <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
-                        </div>
-                        <div class="progra-item__content--text">
-                          <p>Planche</p>
-                          <span>Principiantes - M1</span>
-                        </div>
-                      </div>
+                      </a>
                     </div>
                   </div>
                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -175,7 +175,7 @@
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -183,14 +183,14 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="progra-content__item">
                       <div class="progra-item__number">
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -198,14 +198,14 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="progra-content__item">
                       <div class="progra-item__number">
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -213,14 +213,14 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="progra-content__item">
                       <div class="progra-item__number">
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -228,14 +228,14 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="progra-content__item">
                       <div class="progra-item__number">
                         <p>15</p>
                         <span>sep</span>
                       </div>
-                      <div class="progra-item__content">
+                      <a href="#" class="progra-item__content">
                         <div class="progra-item__content--img">
                           <img src="<?php echo get_template_directory_uri();?>/assets/img/img-routine.png" alt="">
                         </div>
@@ -243,7 +243,7 @@
                           <p>Planche</p>
                           <span>Principiantes - M1</span>
                         </div>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -264,7 +264,9 @@
             <div class="video-dashboard__slider">
                 <div class="slider-dashboard__content">
                   <div class="slider-dashboard__img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    <a href="#">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    </a>
                   </div>
                   <div class="slider-dashboard__text">
                     <a href="#" class="slider-dashboard__cat">
@@ -280,7 +282,9 @@
                 </div>
                 <div class="slider-dashboard__content">
                   <div class="slider-dashboard__img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    <a href="#">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    </a>
                   </div>
                   <div class="slider-dashboard__text">
                     <a href="#" class="slider-dashboard__cat">
@@ -296,7 +300,9 @@
                 </div>
                 <div class="slider-dashboard__content">
                   <div class="slider-dashboard__img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    <a href="#">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    </a>
                   </div>
                   <div class="slider-dashboard__text">
                     <a href="#" class="slider-dashboard__cat">
@@ -312,7 +318,9 @@
                 </div>
                 <div class="slider-dashboard__content">
                   <div class="slider-dashboard__img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    <a href="#">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    </a>
                   </div>
                   <div class="slider-dashboard__text">
                     <a href="#" class="slider-dashboard__cat">
@@ -328,7 +336,9 @@
                 </div>
                 <div class="slider-dashboard__content">
                   <div class="slider-dashboard__img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    <a href="#">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    </a>
                   </div>
                   <div class="slider-dashboard__text">
                     <a href="#" class="slider-dashboard__cat">
@@ -344,7 +354,9 @@
                 </div>
                 <div class="slider-dashboard__content">
                   <div class="slider-dashboard__img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    <a href="#">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/img-vid-prueba1.png" alt="">
+                    </a>
                   </div>
                   <div class="slider-dashboard__text">
                     <a href="#" class="slider-dashboard__cat">
