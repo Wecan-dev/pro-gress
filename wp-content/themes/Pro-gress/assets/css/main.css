@@ -952,6 +952,53 @@ a:hover {
 }
 
 
+/*-- Lista de Productos --*/
+
+.lista-content{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.lista-content__products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.titulo-lista{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding: 60px 0;
+}
+.lista-content__products .slider-dashboard__img img{
+  border-radius: 0;
+}
+.lista-content__products .slider-dashboard__img{
+  width: 260px;
+}
+.lista-content__products .slider-dashboard__content{
+  margin-bottom: 30px;
+}
+.lista-content__info--resul, .lista-content__info--page{
+  font-size: 12.8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.lista-content__info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+
 
 
 

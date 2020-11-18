@@ -83,7 +83,7 @@
           <a class="nav-link" href="<?php bloginfo('url'); ?>/pro-videos"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/lista-de-ejercicios"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a>
         </li>
       </ul>
       <div class="options-navbar">

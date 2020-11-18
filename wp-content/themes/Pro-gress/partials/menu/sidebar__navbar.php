@@ -11,7 +11,7 @@
         </ul>
         <ul class="sidebar__list--menu py-4">
           <li><a href="<?php bloginfo('url'); ?>/pro-videos"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a></li>
-          <li><a href="#!"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/lista-de-ejercicios"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a></li>
         </ul>
       </div>
       <div class="btn-soporte">
