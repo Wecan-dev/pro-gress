@@ -997,6 +997,9 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 25px;
 }
+.routine-video__none{
+    display: none;
+  }
 
 
 
