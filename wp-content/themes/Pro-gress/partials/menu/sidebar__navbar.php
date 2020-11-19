@@ -1,7 +1,7 @@
     <div class="sidebar__navbar my-sidebar active d-none d-lg-block">
       <span></span>
       <div class=" py-4 position-relative">
-        <a href="#!" class="brand__sidebar"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>/" class="brand__sidebar"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
 
         <ul class="sidebar__list--menu pb-4 mt-5">
           <li><a href="<?php bloginfo('url'); ?>" class="active"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a></li>

@@ -24,6 +24,10 @@
     font-display: swap;
 }
 
+*{
+  outline: none !important;
+}
+
 body{
 	font-family: 'Gilroy';
 	background: #fcfcfc;
@@ -145,6 +149,9 @@ a:hover {
   line-height: normal;
   letter-spacing: normal;
   color: #000000;
+}
+.dashboard-progra__title a{
+  color: #000;
 }
 .dashboard-progra__tabs{
   margin: 2rem 0;
@@ -365,7 +372,7 @@ a:hover {
   color: #fff;
   font-size: 25px;
 }
-.dashboard-content__video::before{
+.dashboard-content__video > a::before{
   position: absolute;
   content: '';
   width: 100%;
@@ -1210,6 +1217,9 @@ body > section > div > div > div.sidebar__content--top.sidebar__routine.d-none.d
 }
 .modal-question .modal-body{
   padding: 1rem 30px;
+}
+.modal-question .modal-dialog{
+  margin: 125px auto;
 }
 .modal-question .modal-footer button{
   width: 100%;

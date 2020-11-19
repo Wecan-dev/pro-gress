@@ -52,7 +52,7 @@
 
 <header class="d-flex d-lg-none <?php if(is_page(14)){echo 'header-login';} ?>">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
+    <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
     <div class="title-responsive">
       <p>Dashboard</p>
     </div>

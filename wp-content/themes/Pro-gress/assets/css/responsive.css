@@ -406,6 +406,12 @@
  	.form-login__btn a{
  		margin: 0 10px;
  	}
+ 	.content-index img{
+ 		width: 300px;
+ 	}
+ 	.modal.show .modal-dialog{
+ 		margin: auto;
+ 	}
 
 }
 @media (min-width: 420px) and (max-width: 767px){
@@ -753,6 +759,13 @@
  	.form-login__btn a{
  		margin: 0 10px;
  	}
+
+ 	.content-index img{
+ 		width: 400px;
+ 	}
+ 	.modal.show .modal-dialog{
+ 		margin: auto;
+ 	}
 }
 
 
@@ -783,6 +796,9 @@
 	.workout-routine::before{
 		left: 46%;
 	}
+	.content-index img{
+ 		width: 400px;
+ 	}
 }
 
 

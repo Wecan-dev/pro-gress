@@ -34,7 +34,7 @@
             <div class="dashboard-content__progra">
               <div class="dashboard-progra__title">
                 <p>Programación</p>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
               </div>
               <div class="dashboard-progra__tabs">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -213,7 +213,7 @@
               <p>Videos recientes</p>
             </div>
             <div class="video-dashboard__title--btn">
-              <a href="#">Ver todo</a>
+              <a href="<?php bloginfo('url'); ?>/pro-videos">Ver todo</a>
             </div>
           </div>
           <div class="video-dashboard__video">
