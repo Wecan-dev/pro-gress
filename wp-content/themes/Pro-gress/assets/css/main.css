@@ -909,6 +909,7 @@ a:hover {
   letter-spacing: normal;
   color: #000000;
   margin-bottom: 0;
+  width: 100%;
 }
 .form-login__form button{
   width: 100%;
@@ -920,6 +921,7 @@ a:hover {
   letter-spacing: normal;
   color: #ffffff;
   padding: 20px;
+  border: none;
 }
 .form-login__form button:hover{
   color: #fff;
@@ -949,6 +951,13 @@ a:hover {
 }
 .form-login__btn a:last-child::before{
   display: none;
+}
+.form-login__register{
+  text-align: end !important;
+}
+.form-login__register a{
+  color: #000;
+  font-weight: 900;
 }
 
 
@@ -1000,7 +1009,10 @@ a:hover {
 .routine-video__none{
     display: none;
   }
-
+body > section > div > div > div.sidebar__content--top.sidebar__routine.d-none.d-lg-flex > div.sidebar-top__content > div.user-sidebar__top > div.user-sidebar__top--text > div > a{
+  color: #fff;
+  margin: 0 .5rem;
+}
 
 
 

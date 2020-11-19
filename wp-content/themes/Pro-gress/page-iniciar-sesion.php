@@ -12,7 +12,6 @@
 
                                     <img class="" src="<?php echo get_template_directory_uri();?>/assets/img/user.png">
                                 </div>-->
-                                <h2 class="text-center">Iniciar sesión</h2>
                                 <br>
                                 <?php do_action( 'woocommerce_login_form_start' ); ?>
 
@@ -38,7 +37,7 @@
                                     <?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
                                     <button type="submit" class="main-general__btn main-general__button woocommerce-button woocommerce-form-login__submit" name="login" value="<?php esc_attr_e( 'Log in', 'woocommerce' ); ?>"><?php esc_html_e( 'Iniciar sesión', 'woocommerce' ); ?></button>
                                 </p>
-                                <div class="form-login__register text-center" >
+                                <div class="form-login__register" >
                                     <p class="woocommerce-LostPassword lost_password">
                                         <a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( '¿Se te olvidó tu contraseña?', 'woocommerce' ); ?></a>
                                         <p class="woocommerce-in-account">
