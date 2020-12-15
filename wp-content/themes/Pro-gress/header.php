@@ -66,16 +66,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/dashboard"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/Reportes"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php bloginfo('url'); ?>/workout" ><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-dumbell.png" alt="">Workouts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/calendario"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto">
@@ -91,7 +91,7 @@
           <div class="user-sidebar__top--img">
             <img src="#" alt=""> 
           </div>
-          <p>Samuel56</p>
+          <a href="<?php bloginfo('url'); ?>/perfil">Samuel56</a>
         </div>
         <div class="options-navbar__soport">
           <div class="btn-soporte">
