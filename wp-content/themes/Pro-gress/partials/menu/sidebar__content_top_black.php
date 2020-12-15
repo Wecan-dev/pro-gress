@@ -21,12 +21,11 @@
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="<?php echo get_home_url() ?>/dashboard">Mi cuenta</a>
                   <a class="dropdown-item" href="<?php echo wp_logout_url( home_url()); ?>">Cerrar sesión</a>
-                </div>>  
+                </div>
 
                               
                 <?php }else{ ?>
-                  <a href="<?php echo get_home_url() ?>/login"><button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Entrar </button></a>
+                  <a href="<?php echo get_home_url() ?>/login">Entrar</a>
                 <?php } ?>
  
 

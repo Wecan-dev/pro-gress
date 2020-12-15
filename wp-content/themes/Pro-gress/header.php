@@ -52,7 +52,7 @@
 
 <header class="d-flex d-lg-none <?php if(is_page(14)){echo 'header-login';} ?>">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
+    <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo-progress- white.png" alt=""></a>
     <div class="title-responsive">
       <p>Dashboard</p>
     </div>
@@ -66,16 +66,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/dashboard"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-home.png" alt="">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/Reportes"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-reports.png" alt="">Reportes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php bloginfo('url'); ?>/workout" ><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-dumbell.png" alt="">Workouts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/calendario"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-calendar.png" alt="">Calendario</a>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto">
@@ -83,7 +83,7 @@
           <a class="nav-link" href="<?php bloginfo('url'); ?>/pro-videos"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-video.png" alt="">Pro-videos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php bloginfo('url'); ?>/"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a>
+          <a class="nav-link" href="<?php bloginfo('url'); ?>/lista-de-ejercicios"><img src="<?php echo get_template_directory_uri();?>/assets/img/icon-library.png" alt="">Exercises List</a>
         </li>
       </ul>
       <div class="options-navbar">
@@ -91,7 +91,7 @@
           <div class="user-sidebar__top--img">
             <img src="#" alt=""> 
           </div>
-          <p>Samuel56</p>
+          <a href="<?php bloginfo('url'); ?>/perfil">Samuel56</a>
         </div>
         <div class="options-navbar__soport">
           <div class="btn-soporte">
@@ -100,5 +100,35 @@
         </div>
       </div>
     </div>
+    <div class=" <?php if(is_page(27)){echo 'routine-video__respon d-block d-md-none';} ?> routine-video__none">
+      <div class="subtitle-routine">
+        <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>Mi plan personalizado</a>
+      </div>
+      <div class="routine-content__video">
+      <div class="routine-content__video--video">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/plan-workouts4.png" alt="">
+      </div>
+    </div>
+    <div class="title-routine__programa">
+      <p>DÍA 1 - Push ups</p>
+    </div>
+    <div class="slider-dashboard__cat">
+        <p>Personalizada <i class="fa fa-check-circle" aria-hidden="true"></i></p>
+        <p>Intensidad 2</p>
+      </div>
+      <div class="collapse-routine__text">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing, elit...
+        <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Leer más <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Consequuntur quibusdam maiores alias quidem numquam mollitia velit doloribus dolores, facere iure delectus cupiditate inventore sed, accusamus quia. Tempora, nobis dignissimos aperiam!
+        </div>
+      </div>
+      </div>
+  </div>
   </nav>
 </header>
